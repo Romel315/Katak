@@ -1,4 +1,4 @@
-0m#!/usr/bin/python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 import os
 import sys
@@ -8,7 +8,7 @@ import requests
 import threading
 import progressbar
 
-class hash_kill:
+classhash_kill:
 	class TypeError(Exception):
 		def __init__(self):
 			Exception.__init__(self, "Its not supported algorithms!")
@@ -37,7 +37,7 @@ class hash_kill:
 		time.sleep(1.5)
 		main()
 
-class brute_force:
+classbrute_force:
 	def __init__(self, url, params, wordlist, match_word, method, thread=None, timeout=None):
 		self.url = url
 		self.params = params
@@ -106,9 +106,9 @@ class brute_force:
 		if self.thread != False:self.withThread()
 		else:self.withNoThread()
 
-class download:
+classdownload:
 	class NetworkError(Exception):
-		def __init__(self):
+		def _init__(self):
 			Exception.__init__(self, "Network is unreachable!")
 	def __init__(self, url):
 		self.url = url
