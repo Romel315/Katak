@@ -1,4 +1,4 @@
-#!/usr/bin/python
+0m#!/usr/bin/python
 # -*- coding: utf-8 -*-
 import os
 import sys
