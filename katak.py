@@ -27,7 +27,7 @@ class hash_kill:
 		else:raise self.TypeError()
 	def kill(self):
 		print "[+] Hash type:",self.type
-		wordlist_ = open("password.txt", 'r').readlines()
+		wordlist_ = open("password.t xt", 'r').readlines()
 		progress = progressbar.ProgressBar()
 		print "[+] Cracking..."
 		for word in progress(wordlist_):
